@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1:hover {
+        color: rebeccapurple;
+        /* font-size: 40px; */
+        /* text-align: center; */
+        background-color: antiquewhite;
+      }
+
+      .middle-person:focus {
+        color: aqua;
+        font-size: 10px;
+      }
+
+      /* change website link color */
+      a:visited {
+        color: red;
+      }
+      /* --------- */
+
+      /* Child Change, frist, last, nth */
+      li:first-child {
+        color: red;
+      }
+      li:last-child {
+        color: red;
+      }
+      li:nth-child(2n) {
+        color: blue;
+      }
+
+      /* ক্লাস add করতে চাইলে : ar elememt add করতে চাইলে ::   */
+      h3::before {
+        content: "hello";
+        color: blue;
+      }
+      .special::after {
+        content: "Rakib";
+        color: red;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is Hover</h1>
+    <input type="text" name="" id="" />
+    <input class="middle-person" type="text" name="" id="" />
+    <input type="text" name="" id="" />
+    <br />
+    <br />
+
+    <a
+      href="https://rakib011110.github.io/new-year-web-using-html-css/?fbclid=IwAR35ADK6iWMPafFg0kre1nvLEL1hOofypy9CXMHqDAdDUUNf0rWTi-H7mSE"
+    >
+      <p>New Year Website</p>
+    </a>
+    <a href="https://www.facebook.com/"></a>
+    <a href=""><p>Facebook</p></a>
+    <br />
+
+    <!-- শুরুরে কিছু এড্ড করতে চাইলে Before অ্যাড করতে হবে psudu element add করতে হবে  -->
+
+    <h3>middle size header -1</h3>
+    <h3 class="special">middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3>middle size header -4</h3>
+    <h3 class="special">middle size header -5</h3>
+    <h3>middle size header -6</h3>
+    <!-- -------------------------------- -->
+    <ul>
+      <li>Rakib</li>
+      <li>Borsha</li>
+      <li>Rahul</li>
+      <li>Shohan</li>
+      <li>Promi</li>
+      <li>Alif</li>
+    </ul>
+  </body>
+</html>
